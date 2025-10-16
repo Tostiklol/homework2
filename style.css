@@ -26,7 +26,7 @@ header span {
     font-weight: 700;
     font-size: 48px;
     color: #303030;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 
 .main-text {
@@ -64,13 +64,13 @@ select {
 
 .frameworks-list {
     list-style-image: url(assets/img/Vector.svg);
-    padding-left: 20px;
+    padding: 0px 20px;
     font-weight: 400;
     font-size: 16px;
 }
 
 .books-list {
-    padding-left: 20px;
+    padding-left: 0px 20px;
     font-weight: 400;
     font-size: 16px;
 }
@@ -125,7 +125,7 @@ th, td {
 footer {
     background-color: rgba(163, 167, 255, 0.3);
     padding-top: 26px;
-    padding-bottom: 27px;
+    padding-bottom: 26px;
     height: 70px;
 }
 
