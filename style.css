@@ -1,0 +1,137 @@
+* {
+    /* Свойства для сброса начальных стилей элементов */
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    color: #303030;
+}
+
+header {
+    background-color: #2965f1;
+    padding: 60px 0;
+}
+
+header span {
+    color: #fff;
+}
+
+.main-section {
+    background-color: #fafaff;
+    padding: 60px 0;
+    min-height: 1024;
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 48px;
+    color: #303030;
+    margin-bottom: 60px;
+}
+
+.main-text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #303030;
+}
+
+.main-image {
+    max-width: 715px;
+}
+
+
+.about-section {
+    background-color: #fff;
+    padding: 100px 0;
+}
+
+select {
+    width: 160px;
+    margin: 9px 0 8px 12;
+    font-weight: 400;
+    font-size: 16px;
+    background-image: url(./assets/ph_caret-down-bold.svg);
+    background-repeat: no-repeat;
+    background-position: right 0 top 50%;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #303030;
+    margin-bottom: 25px;
+}
+
+.frameworks-list {
+    list-style-image: url(assets/img/Vector.svg);
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.books-list {
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.label {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.text-field {
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    width: 330px;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 9px 0 8px 12px;
+    font-family: "Inter", sans-serif;
+    color: rgba(48, 48, 48, 0.2);
+    font-size: 16px;
+}
+
+.btn {
+    width: 125px;
+    height: 36px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #2965f1;
+    border: none;
+}
+
+.line {
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    width: 1440px;
+    height: 0px;
+    margin: 60px 0 60px 0;
+}
+
+table {
+    border: 1px solid #95a1bb;
+    width: 300px;
+    height: 196px;
+    border-collapse: collapse;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+th, td {
+    padding: 12px 15px;
+}
+
+footer {
+    background-color: rgba(163, 167, 255, 0.3);
+    padding-top: 26px;
+    padding-bottom: 27px;
+    height: 70px;
+}
+
+.footer-link {
+    font-weight: 400;
+    font-size: 14px;
+    color: #2965f1;
+    text-decoration: none;
+}
